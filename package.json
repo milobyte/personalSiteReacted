@@ -2,7 +2,7 @@
   "name": "personalsitereacted",
   "version": "1.0.0",
   "description": "This is my personal site recreated using React for the front-end",
-  "main": "App.jsx",
+  "main": "./server/App.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
