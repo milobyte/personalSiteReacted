@@ -4,6 +4,7 @@
   "description": "This is my personal site recreated using React for the front-end",
   "main": "./server/App.jsx",
   "scripts": {
+    "start": "node server/App.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
