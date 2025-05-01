@@ -1,9 +1,11 @@
 import logo from './logo.svg';
-import './App.css';
+import './styles.css';
 import Header from './components/Header';
 // import Body from './components/Body'
 import ContactInfo from './components/ContactInfo';
 import Bottom from './components/Bottom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 function App() {
   return (
@@ -22,12 +24,13 @@ function App() {
           Learn React
         </a>
       </header>
+
+      {/* My Work */}
       <Header />
       {/* <Body /> */}
       <ContactInfo />
       <Bottom />
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  
     </div>
     
   );

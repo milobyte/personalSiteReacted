@@ -8,14 +8,14 @@ function Header(){
                 {/* Favicon */}
                 <link rel="icon" href="images/favicon.ico" />
                 {/* CSS and Bootstrap */}
-                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-                <link rel="stylesheet" href="/css/styles.css" />
+                {/* <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" /> */}
+                <link rel="stylesheet" href="./styles.css" />
                 {/* Google Font */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
                 <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded&family=Press+Start+2P&family=Redressed&family=Josefin+Sans:ital,wght@1,300&family=Libre+Baskerville&family=Quicksand&display=swap" rel="stylesheet" />
             </head>
-        <h1>This is the Header</h1>
+            <h1>This is the Header</h1>
         </>
     )
 }
