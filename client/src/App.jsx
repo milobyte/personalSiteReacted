@@ -1,11 +1,13 @@
 import logo from './logo.svg';
-import './styles.css';
-import Header from './components/Header';
-// import Body from './components/Body'
-import ContactInfo from './components/ContactInfo';
-import Bottom from './components/Bottom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import './styles.css';
+import Header from './components/Header';
+import Intro from './components/Intro'
+import ContactInfo from './components/ContactInfo';
+import Bottom from './components/Bottom';
+import Navbar from './components/Navbar'
+import WorkEntry from './components/WorkEntry';
 
 function App() {
   return (
@@ -27,7 +29,9 @@ function App() {
 
       {/* My Work */}
       <Header />
-      {/* <Body /> */}
+      <Navbar />
+      <Intro />
+      <WorkEntry />
       <ContactInfo />
       <Bottom />
   

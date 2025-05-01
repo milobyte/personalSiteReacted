@@ -12,7 +12,7 @@ function ContactInfo() {
                     </div>
                     <div class="col-4">
                         <h1>🕽</h1>
-                        <h3>Or give me a call (I'll do my best to get back to you ASAP):</h3>
+                        <h3>Or give me a call:</h3>
                         <h4>(828)-320-1897</h4>
                     </div>
                     <div class="col-4">
