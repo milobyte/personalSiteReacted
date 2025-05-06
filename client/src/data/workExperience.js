@@ -20,7 +20,15 @@ export default [
         title: "Information Technology Support Specialist",
         date: "September 2021 -- May 2022",
         org: "North Carolina Center for the Advancement of Teaching",
-        description: "temp",
+        description: "burger",
         type: "project"
     },
+    {
+        id: 4,
+        title: "Information Technology Support Specialist",
+        date: "September 2021 -- May 2022",
+        org: "North Carolina Center for the Advancement of Teaching",
+        description: "burger",
+        type: "project"
+    }
 ]

@@ -6,8 +6,7 @@ import Header from './components/Header';
 import Intro from './components/Intro'
 import ContactInfo from './components/ContactInfo';
 import Bottom from './components/Bottom';
-import Navbar from './components/Navbar'
-import WorkEntry from './components/workSection/WorkList';
+import Navbar from './components/Navbar';
 import WorkContainer from './components/workSection/WorkContainer';
 
 function App() {
@@ -21,7 +20,7 @@ function App() {
         <link rel="icon" href="images/favicon.ico" />
         {/* Google Font */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded&family=Press+Start+2P&family=Redressed&family=Josefin+Sans:ital,wght@1,300&family=Libre+Baskerville&family=Quicksand&display=swap" rel="stylesheet" />
       </head>
       <div className="App">

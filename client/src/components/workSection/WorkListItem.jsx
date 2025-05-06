@@ -1,14 +1,16 @@
 /*
 Look into aria-controls
 */
-function WorkListItem(id, title, org, date){
-    const idValue = "prj" + id;
-    const hrefValue = "#prj-info" + id;
+function WorkListItem(props){
+    const idValue = "prj" + props.id;
+    const hrefValue = "#prj-info" + props.id;
+    console.log("IDValue: " + idValue);
+    console.log("hrefValue: " + hrefValue);
     return(
         <>
-            <a className="list-group-item list-group-item-action" id={idValue} data-bs-toggle="list" href={hrefValue} role="tab" aria-controls={hrefValue}>{title}</a>
-            <p>{org}</p>
-            <p>{date}</p>            
+            <a className="list-group-item list-group-item-action" id={idValue} data-bs-toggle="list" href={hrefValue} role="tab" aria-controls={hrefValue}>{props.title}</a>
+            <p>{props.org}</p>
+            <p>{props.date}</p>            
         </>
     )
 } 
