@@ -1,3 +1,5 @@
+import introImage1 from '../images/basic.jpg'; 
+
 function Intro() {
     return (
         <>
@@ -12,8 +14,7 @@ function Intro() {
                     <section className="container-fluid">
                         <div className="row text-center pt-3">
                             <div className="col-md-6">
-                                <img className="rounded-circle img-fluid px-5" src="images/me.jpg" alt="Missing Miles" />
-                                <h2 className="text-center px-2 py-5">Miles Stanley</h2>
+                                <img className="rounded-circle img-fluid px-5" src={introImage1} alt="Missing Miles" />
                             </div>
                             <div className="col-md-6 align-self-center">
                                 <p className="px-4">I'm from Statesville, NC and currently pursuing a bachelors in

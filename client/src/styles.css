@@ -124,3 +124,8 @@ p.footer-section{
 .round-img{
   border-radius: 50%;
 }
+
+.footer-img{
+  max-height:50px;
+  width:6%;
+}
