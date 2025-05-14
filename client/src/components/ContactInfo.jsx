@@ -7,8 +7,7 @@ function ContactInfo() {
                     <h3 className="pb-5">I'd Love to Connect with You!</h3>
                     <div className="col-4">
                         <h1>🖃</h1>
-                        <h3>Feel free to send me an email at:</h3>
-                        <h4>aMilesStanley@gmail.com</h4>
+                        <h3>Feel free to send me an <a href="mailto:amilesstanley@gmail.com" class="btn btn-outline-info">email.</a></h3>
                     </div>
                     <div className="col-4">
                         <h1>🕽</h1>

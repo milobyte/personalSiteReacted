@@ -26,20 +26,20 @@ function WorkList(type) {
     return (
         <>
             {/* Wraps both List selection and contents of entry. */}
-            <div className="row text-center pt-5">
-                <div className="row p-3">
+            <div className="row text-center pt-5 d-flex flex-column flex-grow-1 overflow-auto">
+                <div className="row p-3 px-5">
                     {/* List Groups */}
-                    <h3 className="pb-2"><u>My Professional Experience:</u></h3>
+                    <h3 className="pb-5"><u>My Professional Experience:</u></h3>
                     <div className="col-4">
                         <div className="list-group" id={type + "-tab"} role="tablist">
                             {listElements}
                         </div>
                     </div>
                     {/* List Selection */}
-                    <div className="col-8">
+                    <div className="col-8 flex-grow-1 d-flex align-items-center justify-content-center">
                         <div className="tab-content" id={type + "-tabContent"}>
                             {tabElements}
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>
