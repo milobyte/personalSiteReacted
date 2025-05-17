@@ -5,7 +5,6 @@ function Intro() {
                 <div className="intro" id="intro">
                     <div className="container">
                         <h1>Hello! I'm Miles Stanley</h1>
-                        <h3>IT @ NCCAT | Programmer | Pretty Cool Guy</h3>
                     </div>
                 </div>
                 <div className="about-me min-vh-100" id="about-me">
