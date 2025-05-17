@@ -1,7 +1,7 @@
-const workExperience = [
+const projectExperience = [
     {
         id: 1,
-        title: "Functional Analyst",
+        title: "test",
         date: "September 2024 -- Present",
         org: "Iron Arch Technology",
         description: (
@@ -43,4 +43,4 @@ const workExperience = [
     }
 ];
 
-export default workExperience;
+export default projectExperience;

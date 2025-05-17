@@ -1,7 +1,6 @@
 function Navbar() {
     return (
         <>
-            <img className="monkey-img" src="images/monkey.png" alt="Missing Monkey" />
             <nav id="navbar-top" className="navbar navbar-dark fixed-top px-3 retro-font">
                 <a className="navbar-brand" href="#"></a>
                 <ul className="nav ">

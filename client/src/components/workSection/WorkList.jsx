@@ -1,28 +1,31 @@
-import data from "../../data/workExperience";
-
 import WorkListItem from "./WorkListItem";
 import WorkTabPane from "./WorkTabPane";
 
-function WorkList(type) {
+function WorkList({type , data}) {
+    console.log(data);
     const listElements = data.map(item => {
         return (<WorkListItem
-            key={item.id}
+            key={type + item.id}
             id={item.id}
             title={item.title}
             org={item.org}
             date={item.date}
+            type={type}
         />
         )
     })
     const tabElements = data.map(item => {
         return (<WorkTabPane
-            key={item.id}
+            key={type + item.id}
             id={item.id}
             description={item.description}
+            org={item.org}
+            logo={item.logo}
+            type={type}
         />
         )
     })
-    console.log(listElements);
+    //console.log(listElements);
     return (
         <>
             {/* Wraps both List selection and contents of entry. */}
