@@ -32,7 +32,7 @@ function WorkList({type , data}) {
             <div className="row text-center pt-5 d-flex flex-column flex-grow-1 overflow-auto">
                 <div className="row p-3 px-5">
                     {/* List Groups */}
-                    <div className="col-4">
+                    <div className="col-4 list-tint-green py-4 px-4">
                         <div className="list-group" id={type + "-tab"} role="tablist">
                             {listElements}
                         </div>

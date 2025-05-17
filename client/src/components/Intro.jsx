@@ -8,9 +8,9 @@ function Intro() {
                         <h3>IT @ NCCAT | Programmer | Pretty Cool Guy</h3>
                     </div>
                 </div>
-                <div className="about-me" id="about-me">
-                    <section className="container-fluid">
-                        <div className="row text-center pt-3">
+                <div className="about-me min-vh-100" id="about-me">
+                    <section className="container-fluid d-flex justify-content-center align-items-center vh-100">
+                        <div className="row text-center">
                             <div className="col-md-6">
                                 <img className="rounded-circle img-fluid px-5" src="images/basic.jpg" alt="Missing Miles" />
                             </div>
