@@ -2,7 +2,7 @@ const workingOnExperience = [
     {
         id: 1,
         title: "thisIsNew",
-        date: "September 2024 -- Present",
+        context: "September 2024 -- Present",
         org: "Iron Arch Technology",
         description: (
             <p>
@@ -16,7 +16,7 @@ const workingOnExperience = [
     {
         id: 2,
         title: "Software Test Engineer",
-        date: "May 2022 -- September 2024",
+        context: "May 2022 -- September 2024",
         org: "Iron Arch Technology",
         description: (
             <p>
@@ -30,7 +30,7 @@ const workingOnExperience = [
     {
         id: 3,
         title: "Information Technology Support Specialist",
-        date: "September 2021 -- May 2022",
+        context: "September 2021 -- May 2022",
         org: "North Carolina Center for the Advancement of Teaching",
         description: (
             <p>

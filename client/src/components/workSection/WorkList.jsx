@@ -9,7 +9,7 @@ function WorkList({type , data}) {
             id={item.id}
             title={item.title}
             org={item.org}
-            date={item.date}
+            context={item.context}
             type={type}
         />
         )
@@ -32,7 +32,6 @@ function WorkList({type , data}) {
             <div className="row text-center pt-5 d-flex flex-column flex-grow-1 overflow-auto">
                 <div className="row p-3 px-5">
                     {/* List Groups */}
-                    <h3 className="pb-5"><u>My Professional Experience:</u></h3>
                     <div className="col-4">
                         <div className="list-group" id={type + "-tab"} role="tablist">
                             {listElements}
@@ -40,7 +39,7 @@ function WorkList({type , data}) {
                     </div>
                     {/* List Selection */}
                     <div className="col-8 flex-grow-1 d-flex align-items-center justify-content-center">
-                        <div className="tab-content" id={type + "-tabContent"}>
+                        <div className="tab-content p-4" id={type + "-tabContent"}>
                             {tabElements}
                         </div> 
                     </div>

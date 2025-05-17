@@ -15,10 +15,10 @@ function Intro() {
                                 <img className="rounded-circle img-fluid px-5" src="images/basic.jpg" alt="Missing Miles" />
                             </div>
                             <div className="col-md-6 align-self-center">
-                                <p className="px-4">I'm from Statesville, NC and currently pursuing a bachelors in
-                                    Computer Science at Western Carolina University. I work part-time in the Technology Department for the North Carolina Center
-                                    of the Advancement of Teaching. I have expierience in both hardware and software management, but I am always interested in learning new
-                                    things, advancing my skills, and finding new passions.</p>
+                                <p className="px-4">It’s a pleasure to virtually greet you! I’m from Statesville, NC, and I graduated with a Bachelor’s degree in Computer Science in 2022. 
+                                    Since then, I’ve been working in the tech industry for about three years. Ever since the boom of the internet in the late ’90s and into the 2000s, my life has revolved around the ever-evolving world of technology and the gadgets we all love. 
+                                    I’m a quick learner—something many friends and colleagues can confidently attest to! In this field, you never quite know what’s around the corner, but I’ve always enjoyed diving into new technologies and rising to new challenges. 
+                                    I value strong collaboration and believe that great teamwork truly makes the dream work. I’ve always strived to help bring both my own goals and those of my peers to life. Please feel free to connect—I’d love to chat!</p>
                             </div>
                         </div>
                     </section>
