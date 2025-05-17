@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './styles.css';
@@ -6,37 +5,34 @@ import Header from './components/Header';
 import Intro from './components/Intro'
 import ContactInfo from './components/ContactInfo';
 import Bottom from './components/Bottom';
-import Navbar from './components/Navbar'
-import WorkEntry from './components/WorkEntry';
+import Navbar from './components/Navbar';
+import WorkContainer from './components/workSection/WorkContainer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+      <head>
+        <meta charSet="utf-8" />
+        <title>Miles Stanley</title>
 
-      {/* My Work */}
-      <Header />
-      <Navbar />
-      <Intro />
-      <WorkEntry />
-      <ContactInfo />
-      <Bottom />
-  
-    </div>
-    
+        {/* Favicon */}
+        <link rel="icon" href="images/favicon.ico" />
+        {/* Google Font */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded&family=Press+Start+2P&family=Redressed&family=Josefin+Sans:ital,wght@1,300&family=Libre+Baskerville&family=Quicksand&display=swap" rel="stylesheet" />
+      </head>
+      <div className="App">
+        {/* My Work */}
+        <Header />
+        <Navbar />
+        <Intro />
+        <WorkContainer />
+        <ContactInfo />
+        <Bottom />
+
+      </div>
+    </>
   );
 }
 

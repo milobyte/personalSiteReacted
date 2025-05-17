@@ -1,25 +1,24 @@
 function Intro() {
     return (
         <>
-            <div class="body-content" data-bs-spy="scroll" data-bs-target="#navbar-top" data-bs-offset="0" tabindex="0">
-                <div class="intro" id="intro">
-                    <div class="container">
-                        <h1>Hello, I'm Miles Stanley</h1>
+            <div className="body-content" data-bs-spy="scroll" data-bs-target="#navbar-top" data-bs-offset="0" tabIndex="0">
+                <div className="intro" id="intro">
+                    <div className="container">
+                        <h1>Hello! I'm Miles Stanley</h1>
                         <h3>IT @ NCCAT | Programmer | Pretty Cool Guy</h3>
                     </div>
                 </div>
-                <div class="about-me" id="about-me">
-                    <section class="container-fluid">
-                        <div class="row text-center pt-3">
-                            <div class="col-md-6">
-                                <img class="rounded-circle img-fluid px-5" src="images/me.jpg" alt="Missing Miles" />
-                                <h2 class="text-center px-2 py-5">Miles Stanley</h2>
+                <div className="about-me min-vh-100" id="about-me">
+                    <section className="container-fluid d-flex justify-content-center align-items-center vh-100">
+                        <div className="row text-center">
+                            <div className="col-md-6">
+                                <img className="rounded-circle img-fluid px-5 py-3" src="images/basic.jpg" alt="Missing Miles" />
                             </div>
-                            <div class="col-md-6 align-self-center">
-                                <p class="px-4">I'm from Statesville, NC and currently pursuing a bachelors in
-                                    Computer Science at Western Carolina University. I work part-time in the Technology Department for the North Carolina Center
-                                    of the Advancement of Teaching. I have expierience in both hardware and software management, but I am always interested in learning new
-                                    things, advancing my skills, and finding new passions.</p>
+                            <div className="col-md-6 align-self-center">
+                                <p className="px-4">It’s a pleasure to virtually greet you! I’m from Statesville, NC, and I graduated with a Bachelor’s degree in Computer Science in 2022. 
+                                    Since then, I’ve been working in the tech industry for about three years. Ever since the boom of the internet in the late ’90s and into the 2000s, my life has revolved around the ever-evolving world of technology and the gadgets we all love. 
+                                    I’m a quick learner—something many friends and colleagues can confidently attest to! In this field, you never quite know what’s around the corner, but I’ve always enjoyed diving into new technologies and rising to new challenges. 
+                                    I value strong collaboration and believe that great teamwork truly makes the dream work. I’ve always strived to help bring both my own goals and those of my peers to life. Please feel free to connect—I’d love to chat!</p>
                             </div>
                         </div>
                     </section>

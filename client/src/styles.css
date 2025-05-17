@@ -65,16 +65,18 @@ p{
 
 .intro{
   padding: 25%;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
   background-color: #191A19;
   font-family: 'Redressed', cursive;
 }
 
-.monkey-img{
-  width: 5%;
-  position: fixed;
+.list-tint-green {
+  background-color: rgba(82, 109, 54, 0.3) !important;
 }
+
 
 .about-me{
   background-color: #191A19;
@@ -123,4 +125,15 @@ p.footer-section{
 
 .round-img{
   border-radius: 50%;
+}
+
+.logo-img {
+  max-height: 200px;           /* Set your desired height */
+  width: auto;             /* Let width adjust automatically */
+  object-fit: cover;       /* Maintain aspect ratio & crop if needed */
+}
+
+.footer-img{
+  max-height:50px;
+  width:6%;
 }
