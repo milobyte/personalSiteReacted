@@ -12,7 +12,7 @@ function Intro() {
                     <section className="container-fluid d-flex justify-content-center align-items-center vh-100">
                         <div className="row text-center">
                             <div className="col-md-6">
-                                <img className="rounded-circle img-fluid px-5" src="images/basic.jpg" alt="Missing Miles" />
+                                <img className="rounded-circle img-fluid px-5 py-3" src="images/basic.jpg" alt="Missing Miles" />
                             </div>
                             <div className="col-md-6 align-self-center">
                                 <p className="px-4">It’s a pleasure to virtually greet you! I’m from Statesville, NC, and I graduated with a Bachelor’s degree in Computer Science in 2022. 

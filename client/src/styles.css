@@ -127,6 +127,12 @@ p.footer-section{
   border-radius: 50%;
 }
 
+.logo-img {
+  max-height: 200px;           /* Set your desired height */
+  width: auto;             /* Let width adjust automatically */
+  object-fit: cover;       /* Maintain aspect ratio & crop if needed */
+}
+
 .footer-img{
   max-height:50px;
   width:6%;
