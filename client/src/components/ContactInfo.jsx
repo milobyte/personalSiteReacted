@@ -16,7 +16,7 @@ function ContactInfo() {
                     </div>
                     <div className="col-4">
                         <h1>🖹</h1>
-                        <h3>And here's my <a href="https://www.overleaf.com/read/sxjkpjwmxgdg#c6582c"><strong>resume</strong></a>.</h3>
+                        <h3>And here's my <a href="https://www.overleaf.com/read/tbhhvvyxpwbw#a03ed6"><strong>resume</strong></a>.</h3>
 
                     </div>
                 </div>
