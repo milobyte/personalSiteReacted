@@ -28,8 +28,10 @@ function App() {
         <Navbar />
         <Intro />
         <WorkContainer />
-        <ContactInfo />
-        <Bottom />
+        <section className='d-flex flex-column min-vh-100'>
+          <ContactInfo />
+          <Bottom />
+        </section>
 
       </div>
     </>

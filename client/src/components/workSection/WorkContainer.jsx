@@ -1,3 +1,7 @@
+/**
+ * This Component represents the overall dynamic container that displays information based on work, project, or additional experience.
+ */
+
 import WorkList from "./WorkList";
 import workData from "../../data/workExperience";
 import projectData from "../../data/projectExperience.js";

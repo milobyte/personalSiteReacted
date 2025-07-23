@@ -21,7 +21,7 @@ const workExperience = [
                 As a Software Test Engineer supporting critical IT initiatives within the Department of Veterans Affairs, I collaborated with multiple high-impact teams, including IT Asset Management (ITAM), Configuration Management Database (CMDB), the Service Catalog team, and various core system upgrade efforts. My contributions spanned a broad range of responsibilities, including conducting code reviews, executing system administration tasks, and leading testing efforts for both front-end and back-end functionalities within an Agile environment. I also oversaw validation processes for custom API integrations. My performance was publicly recognized by the prime contractor, Accenture Federal Services, for delivering high-quality support and leadership
             </p>
         ),
-        logo: "../../images/IA1.png"
+        logo: "images/IA1.png"
     },
     {
         id: 3,
@@ -33,7 +33,7 @@ const workExperience = [
                 As an IT Support Specialist, I played a key role in supporting educators across North Carolina by maintaining and providing technical support for the hardware and software used in presentations and educational activities hosted by the North Carolina Center for the Advancement of Teaching (NCCAT). In addition to this, I worked closely with my team lead to ensure the ongoing maintenance and functionality of staff equipment, enabling personnel to carry out their responsibilities effectively and without interruption.
             </p>
         ),
-        logo: "../../images/nccat.jpg"
+        logo: "images/nccat.jpg"
     }
 ];
 

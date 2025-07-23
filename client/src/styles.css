@@ -110,7 +110,8 @@ p{
   padding: 5%
 }
 .contact-me{
-  padding: 15%;
+  padding: 17%;
+  height: 87vh;
   background-color: #4E9F3D;
   color: white;
   font-family: 'Quicksand', sans-serif;
@@ -128,9 +129,9 @@ p.footer-section{
 }
 
 .logo-img {
-  max-height: 200px;           /* Set your desired height */
-  width: auto;             /* Let width adjust automatically */
-  object-fit: cover;       /* Maintain aspect ratio & crop if needed */
+  max-height: 200px;         
+  width: auto;             
+  object-fit: cover;       
 }
 
 .footer-img{

@@ -1,9 +1,9 @@
 function Bottom() {
     return (
-        <footer className="footer-section" id="footer-section">
+        <footer className="footer-section flex-grow-1" id="footer-section">
             <div className="container-fluid">
-                <div className="row text-center pt-3 d-flex justify-content-around">
-                    <a className="col-md-6 p-3" href="https://www.linkedin.com/in/miles-stanley-406ab3191/">
+                <div className="row text-center pt-3">
+                    <a className="col-md-6 p-3" href="https://www.linkedin.com/in/amilesstanley">
                         <img className="img-fluid footer-img" src="images/LI-Logo.png" />
                     </a>
                     <a className="col-md-6 p-3" href="https://github.com/milobyte" alt="LinkedIn">

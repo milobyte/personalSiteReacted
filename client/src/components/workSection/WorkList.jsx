@@ -1,8 +1,16 @@
+/**
+ * This Component represents the dynamic creation of both List Group items and their respective Tab Pane entries by parsing through 
+ * specific data entries that are passed in.
+ * @typedef {Object} data - Organized infromation that's been passed in as a JS object. This data is used to create both List Group items and Tab Pane entries.
+ * @param {string} type - Specifies which section of the work section this Work List item applies to.
+ */
+
 import WorkListItem from "./WorkListItem";
 import WorkTabPane from "./WorkTabPane";
 
 function WorkList({type , data}) {
-    console.log(data);
+    // console.log(data);
+
     const listElements = data.map(item => {
         return (<WorkListItem
             key={type + item.id}

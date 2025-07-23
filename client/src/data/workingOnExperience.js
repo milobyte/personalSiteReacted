@@ -1,12 +1,12 @@
 const workingOnExperience = [
     {
         id: 1,
-        title: "Security Plus",
+        title: "Advanced React/TypeScript experience",
         context: "",
-        org: "CompTIA Certification",
+        org: "Scrimba",
         description: (
             <p>
-                I am working towards obtaining the Security+ certification. My background in IT has helped me learn many aspects of hardware, software, and network troubleshooting, but I am interested in learning more about Information Security.
+                I am working towards learning more full-stack web development experience using Scrimba. 
             </p>
         ),
         logo: ""
